@@ -8,7 +8,7 @@ public class Task {
     private int id;
     private String title;
     private String description;
-    private String status; // "TODO", "IN_PROGRESS", "DONE"
+    private String status; 
     private String priority; // "LOW", "MEDIUM", "HIGH"
 
     public Task(int id, String title, String description, String priority) {
